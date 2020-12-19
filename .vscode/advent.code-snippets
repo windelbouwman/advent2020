@@ -23,9 +23,9 @@
             "    with open('input.txt', 'r') as f:",
             "         return load_from_lines(f)",
             "",
-            "def load_from_lines():",
-            "        for line in f:",
-            "            pass",
+            "def load_from_lines(lines):",
+            "    for line in lines:",
+            "        pass",
         ]
     },
     "Part functions": {
@@ -41,7 +41,7 @@
             "",
             "def test_part$1():",
             "    example = ''",
-            "    data = load_from_lines(example.split_lines())",
+            "    data = load_from_lines(example.splitlines())",
             "    res = solve_part$1()",
             "    assert res = ?",
             "",
